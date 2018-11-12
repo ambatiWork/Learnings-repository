@@ -1,0 +1,26 @@
+Ref : https://www.youtube.com/watch?v=xuB1Id2Wxak
+--> git is Distributed Control system.
+
+-> What is Repository ? 
+repository is a data space where you store all your project files there.
+
+--> How git works ?
+Work station    -->(Commit)   git(Local repository)    -->(Push)  git hub(central repository)
+				        <--(Update)  						               <--(Pull)
+				
+				
+--> Difference between git and gitHub
+Git is a version control tool. Github is a central repository where it allows to store your code.
+
+--> 2 types of repository Central and Local.
+
+--> Git operations and Commands
+Creating repository  -- git init
+Making changes --  status, add, commit
+Parallel dev -- branch, merge, rebase
+Syncing repository -- add origin, push, pull
+
+--> If ur working on a completely new project and if u want some thing fresh/ very new u can use git init to create a repository or if u want to join exisitng projecct u can git clone to download the repository
+
+-->  what is .gitignore ?
+.gitignore - ther might be some files you dont want, when u r making operations like pull /push ex: log files . You dont want those files to get pushed / pulled. Those files we can add it in gitignore.
